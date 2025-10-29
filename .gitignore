@@ -1,6 +1,9 @@
 /.env
 /.vscode
 /config/*
+!/config/phpmyadmin/
+!/config/phpmyadmin/themes/
+!/config/phpmyadmin/themes/**
 /data/*
 /logs/*
 /www/*
@@ -12,5 +15,3 @@
 !www/phpinfo.php
 !www/test_db.php
 !www/test_db_pdo.php
-
-!config/phpmyadmin/themes/*
