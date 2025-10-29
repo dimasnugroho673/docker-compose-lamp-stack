@@ -4,5 +4,13 @@
 /data/*
 /logs/*
 /www/*
-.DS_Store
+!.DS_Store
 /buildtest
+
+# KECUALIKAN file tertentu di /www/
+!www/index.php
+!www/phpinfo.php
+!www/test_db.php
+!www/test_db_pdo.php
+
+!config/phpmyadmin/themes/*
